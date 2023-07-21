@@ -2,6 +2,7 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
+    // custom screen size
     screens: {
       sm: "480px",
       md: "768px",
@@ -9,6 +10,7 @@ module.exports = {
       xl: "1440px",
     },
     extend: {
+      // custom color
       colors: {
         strongCyan: "hsl(171, 66%, 44%)",
         lightBlue: "hsl(233,100%,69%)",
